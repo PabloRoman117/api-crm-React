@@ -1,0 +1,68 @@
+{
+  "clientes": [
+    {
+      "nombre": "Israel",
+      "empresa": "Unila sur",
+      "email": "pablorcb117@gmail.com",
+      "telefono": "5564497198",
+      "notas": "Nuevo Cliente",
+      "id": 1
+    },
+    {
+      "nombre": "Pablo",
+      "empresa": "Unila sur",
+      "email": "pablorcb117@gmail.com",
+      "telefono": "5564497198",
+      "notas": "Nuevo Cliente",
+      "id": 2
+    },
+    {
+      "nombre": "Brenda",
+      "empresa": "Brenda Empresa",
+      "email": "brenda@correo.com",
+      "telefono": "465512231321",
+      "notas": "Solicita nueva cotizacion del correo",
+      "id": 3
+    },
+    {
+      "nombre": "Tamara",
+      "empresa": "Tamara´s react",
+      "email": "ifenix@outlook.es",
+      "telefono": "55982200114",
+      "notas": "El cliente solicita una creacion de app ",
+      "id": 4
+    },
+    {
+      "nombre": "Michel",
+      "empresa": "VideoGame",
+      "email": "Mich@correo.com",
+      "telefono": "512132132165451",
+      "notas": "Solicita un prestamo",
+      "id": 5
+    },
+    {
+      "nombre": "Carlos",
+      "empresa": "Charlyy",
+      "email": "carlos@correo.com",
+      "telefono": "",
+      "notas": "Solicita un préstamo ",
+      "id": 6
+    },
+    {
+      "nombre": "Carlos",
+      "empresa": "Charly's Curso",
+      "email": "carlos@correo.com",
+      "telefono": "54651231321531",
+      "notas": "Solicita prestamo",
+      "id": 7
+    },
+    {
+      "nombre": "Sanmarina",
+      "empresa": "Tik tok",
+      "email": "Sanm@correo.com",
+      "telefono": "546454548645",
+      "notas": "Requiere una cotización",
+      "id": 8
+    }
+  ]
+}
