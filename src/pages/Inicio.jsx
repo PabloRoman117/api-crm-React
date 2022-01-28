@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react'
 import Cliente from '../components/Cliente';
+import swal from 'sweetalert';
 
 
 const Inicio = () => {
@@ -22,9 +23,17 @@ const Inicio = () => {
     }, [])
 
 
-    const handleEliminar = async id => {
-        const confirmar = confirm('Deseas eliminar este cliente?')
+  
 
+    const handleEliminar = async id => {
+
+  
+
+        const confirmar = swal({
+            title: "Eliminado Correctamente",
+            icon: "success",
+            button: "Aceptar!",
+          });
         if(confirmar){
             try{
                 const url = `${import.meta.env.VITE_API_URL}/${id}`
@@ -41,6 +50,8 @@ const Inicio = () => {
             }
             
         }
+           
+        
     }
     
     return (
